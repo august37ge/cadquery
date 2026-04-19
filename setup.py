@@ -39,7 +39,7 @@ setup(
         "typish",
         "nptyping",
         "pyparsing",
-        "pytest",       # included for plugin testing utilities
+        # Removed pytest from install_requires - it belongs only in dev extras
     ],
     extras_require={
         "dev": [
@@ -66,12 +66,7 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
-        "Topic :: Scientific/Engineering",
-        "Topic :: Software Development :: Libraries :: Python Modules",
-    ],
-    ="CA OCCT, OpenCASCADE,  parametric, modeling, scripting",
-    projectreadthedocs.io",
-        "Source": "https://github.com/CadQuery/cadquery",
-        "Tracker": "https://github.com/CadQuery/cadquery/issues",
+        "Topic ::        "Topic :: Software Development ::project_urls={
+        "": "https://cadio": "https://github.com/CadQuery/cadqueryTracker": "https://github.com/CadQuery/cadquery/issues",
     },
 )
